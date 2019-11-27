@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  each book in books
+    ul
+      li
+        h2 #{book.name}
+        h4 #{book.genre}
+        h4 #{book.author}
+        h4 #{book.release_year}
+        h4 #{book.copies_sold}
+       

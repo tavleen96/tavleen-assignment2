@@ -1,0 +1,87 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+ h1,h2, h3, h4, h5, h6 {
+  font-family: 'fantasy', cursive;
+}
+
+
+
+
+
+h6{
+  padding-left: 5%;
+}
+
+.navbar-brand {
+  font-family:  Helvetica;
+}
+
+legend {
+  font-family: 'fantasy', Helvetica;
+}
+ul {
+  list-style-type: none;
+    
+}
+body {
+  font-family: "Cabin", Arial, cursive;
+  color: rebeccapurple;
+  background-color: orange;
+  
+}
+
+p{
+    font-size: 30px;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: #333;
+   
+    
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+   
+}
+
+li:last-child {
+  border-right: none;
+}
+
+
+
+a li {
+  display: inline-block;
+  color: red;
+  text-align: center;
+  padding: 4px 100px ;
+  text-decoration: underline;
+    
+}
+
+a li:hover:not(.active) {
+  background-color: #ddd;
+    color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+ul {
+  overflow: hidden;
+}
+
+#mainImg{
+    background-image: url(../images/bookstore.jpg);
+    height:500px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin-top: 10%;
+   
+}
